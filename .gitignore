@@ -1,0 +1,53 @@
+#IDE files
+.idea/
+
+#CMake
+cmake-build-*/
+
+# File-based project format
+*.iws
+
+# Log files and folders
+**/logs
+*.log
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+#Trash
+$RECYCLE.BIN/
+.Trash-*
+.nfs*
+
+#Temporary files
+*~
+*.patch
+*.diff
+*.lock
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+#Otput directories
+bin/
+out/
+target/
+build/
+dist/
+
+#Hidden system files
+*.DS_Store
+**/Thumbs.db
+
+@Cache
+node_modules/
+packages/
+
+# Private key
+*.ppk
+
+*.lnk
+.svn/
+[Dd]esktop.ini
